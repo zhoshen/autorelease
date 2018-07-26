@@ -15,7 +15,7 @@ Simplify and visualize raptor.io release
 
 ### Architecture
 
-![Release Explained](./images/)
+![Release Explained](./images/autorelease_arch.png)
 
 
 ---
