@@ -19,23 +19,15 @@ Simplify and visualize raptor.io release
 
 
 ---
-
 ### Intent Objects
-
-- RaptorIORelease
-  * abc
-
-- Artifact
-  * abc
-- DependencyUpdate
-  * bcd
+- RaptorIORelease: top level release object
+- Artifact: each individual release object
+- DependencyUpdate: object to sync with pom update service
 - Controllers (operators)
   * release controller
   * artifact controller
   * pom dependency controller
-
 ---
-
 ### Release Dependency Service
 
 - Calculate current release dependencies
@@ -60,6 +52,13 @@ sample code here
 - Dispatcher: Manages Data Flow
 - Stores: Handle State & Logic
 - Views: Render Data via React
+
+---
+
+### Demo
+- Release monitor dashboard
+- Command Line Query
+- Test example demo
 
 ---
 
