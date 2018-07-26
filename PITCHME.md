@@ -41,6 +41,9 @@ Simplify and visualize raptor.io release
 - Calculate current release dependencies
 - Input: release artifact and version
 - Output: All artiafct releases and its dependencies
+```
+sample code here
+```
 
 ---
 
