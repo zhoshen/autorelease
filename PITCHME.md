@@ -9,7 +9,7 @@ Simplify and visualize raptor.io release
 - Release process is painful and boring: developers should focus on solving problems or features and test cases development
 - Hard to know components release dependency
 - Hard to track release artifact release status
-- Hard to support fine grained releases
+- Hard to support fine grained release controls
 
 ---
 
@@ -32,26 +32,22 @@ Simplify and visualize raptor.io release
 
 - Calculate current release dependencies
 - Input: release artifact and version
-- Output: All artiafct releases and its dependencies
-```
-sample code here
-```
+- Output: all release artifacts and its dependencies
 
 ---
 
 ### Release Service
 
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+- Release service integrated with Jenkins and maven repo
+- Build: using declared Jenkins file
+- Release: dynamically created release pipeline stages for different types of artifacts
 
 ---
 
 ### POM Service
 
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+- Keep monitor the snapshot artifact and the new release artifacts
+- Update pom dependency with the release artifact
 
 ---
 
