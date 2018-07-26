@@ -1,4 +1,4 @@
-# Raptor.io Release Automation 
+## Raptor.io Release Automation 
 
 Simplify and visualize raptor.io release
 
@@ -22,17 +22,17 @@ Simplify and visualize raptor.io release
 
 ### Intent Objects
 
-- raptoriorelease
-* abc
+- RaptorIORelease
+  * abc
 
-- artifact
-* abc
-- dependencyupdate
-* bcd
-- controllers (operators)
-* release controller
-* artifact controller
-* pom dependency controller
+- Artifact
+  * abc
+- DependencyUpdate
+  * bcd
+- Controllers (operators)
+  * release controller
+  * artifact controller
+  * pom dependency controller
 
 ---
 
